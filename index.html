@@ -1,15 +1,14 @@
 <html>
     <head>
         <title>Tweeten, a powerful Twitter client</title>
-        <link rel="stylesheet" type="text/css" href="./inc/css/app.css?v=5.1">
+        <link rel="stylesheet" type="text/css" href="./inc/css/app.css?v=5.5">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-        <script src="inc/js/app.js?v=5"></script>
+        <script src="inc/js/app.js?v=5.4"></script>
         <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
         <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' /> 
         <link rel="icon" type="image/png" sizes="32x32" href="./inc/images/fav/favicon-32x32.png?v=2">
         <link rel="icon" type="image/png" sizes="16x16" href="./inc/images/fav/favicon-16x16.png?v=2">
         <link rel="mask-icon" href="./inc/images/fav/safari-pinned-tab.svg" color="#5bbad5">
-        <link rel="shortcut icon" href="./inc/images/fav/favicon.ico">
         <meta name="theme-color" content="#0078D7">
         
     </head>
@@ -123,6 +122,16 @@
                 </div>
             </div>
 
+            <div class="feature a-left">
+                <div class="inner container">
+                    <div class="img-cont"><img src="./inc/images/notifs.png" alt="Tweeten Notifications"/></div>
+                    <div class="meta">
+                        <h2>Powerful, Interactive Notifications</h2>
+                        <p>Tweeten Notifications allow you to get real-time updates without getting distracted. Interact with tweets directly from notifications, choose custom notification sounds, stay focused with built-in Mute feature, choose from a handful of configuration options, and more.</p>
+                    </div>
+                </div>
+            </div>
+
             <div class="feature">
                 <div class="inner container">
                     <div class="img-cont gif"><img class="shadow" src="./inc/images/gif.jpeg?v=1.1" alt="GIF features for TWeeten"/></div>
@@ -138,7 +147,7 @@
                     <div class="img-cont"><img src="./inc/images/extension.png" alt="Tweeten on a Microsoft Surface Laptop"/></div>
                     <div class="meta">
                         <h2>Available on your browser</h2>
-                        <p>If you don't want a desktop app, Tweeten is available as an extension for Google Chrome as well. Our browser extension gives you the exact same experience with real-time cusotmization abilities, custom CSS, GIF Search, and more!</p>
+                        <p>If you don't want a desktop app, Tweeten is available as an extension for Google Chrome as well. Our browser extension gives you the exact same experience with real-time customization abilities, custom CSS, GIF Search, and more!</p>
                     </div>
                 </div>
             </div>
@@ -193,13 +202,42 @@
                     <div class="meta">
                         <h2>Get it today on Windows and Mac</h2>
                         <p class="dark">A better and powerful tweeting experience is just a click away. Get Tweeten on Windows 10, macOS, Windows 8 or Windows 7 today.</p>
-
-                        <ul>
+                        <!-- <p class="mac"><span>Warning!</span>Please download Tweeten using Safari if you are running macOS 10.15 (Catalina). The app will not work if you use a different browser due to a bug in macOS. If you are still having issues, <em>click here.</em></p> -->
+                        
+                        <ul class="dl">
                             <li><a href="" target="_blank" title="Download Tweeten for your Windows 7, 8, or 10 PC, today.">Windows (64-bit)</a></li>
                             <li><a href="https://www.microsoft.com/store/p/tweeten/9nblggh52xbx" title="Download Tweeten for your Windows 10 device, today.">Microsoft Store</a></li>
                             <li><a href="" target="_blank" title="Download Tweeten for your Mac, today.">macOS</a></li>
                             <li><a href="https://chrome.google.com/webstore/detail/tweeten/ffoimglpkabojpaknlpodligjndnedji" target="_blank" title="Download Tweeten for Google Chrome">Chrome</a></li>
                         </ul>
+
+                        <!-- <div class="tutorial">
+                            <blockquote>
+                        
+                                <div class='embed-container'><iframe src='https://www.youtube.com/embed/dxw4vhrT7wQ' frameborder='0'
+                                        allowfullscreen></iframe></div>
+                                <div class="inner">
+                        
+                                    <p>If you can not open the app even after downloading using Safari, please follow the following steps:</p>
+                                    <ul>
+                                        <li>Hit CMD+Space on your keyboard and search "Terminal".</li>
+                                        <li>Go into the folder that has the <em>tweeten-darwin-x64.zip</em> fille and copy it.</li>
+                                        <li>Open the terminal, and type <em>cd</em> and then paste from your clipboard (right click > paste or
+                                            Cmd+V). Then
+                                            backspace and delete the <em>tweeten-darwin-x64.zip</em> part.</li>
+                                        <li>You should now be in the folder with the <em>tweeten-darwin-x64.zip</em> file.</li>
+                                        <li>Type "ditto -xk" on the terminal, followed by a space, and then type <em>tweeten-darwin-x64.zip</em>
+                                            (hint: you
+                                            can just type "tweeten" and hit Tab to autocomplete).</li>
+                                        <li>After that, you should have something like <br /><em>ditto -xk
+                                                /Users/hackerman/Downloads/tweeten-darwin-x64.zip</em>on the terminal.</li>
+                                        <li>Now add <em>./Tweeten</em> to the line and hit enter, then close the terminal.</li>
+                                        <li>Go back into the folder with the .zip file, and you will see a new "Tweeten" folder</li>
+                                        <li>From there, open the Tweeten app and it should open without any problems</li>
+                                    </ul>
+                                </div>
+                                </bockquote>
+                        </div> -->
                     </div>
                 </div>
             </div> 
@@ -215,7 +253,7 @@
                     <li><a href="https://twitter.com/tweetenapp">Follow us</a></li>
                 </ul>
 
-                <p>Tweeten is built with <span class="heart">❤</span> in London by <a href="https://inspectelement.io">Inspect Element.</a></p>
+                <p>Tweeten is built with <span class="heart">❤</span> in London by <a href="https://builtbymeh.com">Mehedi Hassan.</a></p>
             </div>
         </footer>
     </body>

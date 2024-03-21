@@ -1,13 +1,15 @@
 {
-	"url": "https://github.com/MehediH/Tweeten/releases/download/4.6.1/tweeten-darwin-x64.zip",
-	"version": "4.6.1",
-	"message": "A new Tweeten update system is here. And it's AMAZING if you are on Windows.",
+	"url": "https://github.com/MehediH/Tweeten/releases/download/v5.5.0/tweeten-darwin-x64.zip",
+	"version": "5.5.0",
+	"message": "Tweeten 5.5.0 introduces new Tweeten Notifications feature and more!",
 	"new": [
-		"Tweeten's installer on Windows is now down to ~40MB, down from ~160MB 🎉",
-		"Tweeten now supports delta updates for major updates and patches, which means you can now update to the latest version of Tweeten in seconds. Like Flash ⚡",
-		"Tweeten now checks for updates in the background, so when you are running the app for hours and there's a new update released, you can get it installed instantly without having to restart the app to check for updates ✨",
-		"The update system is now more reliable and less prone to crashing 🙌",
-		"Tweeten should now once again be functional on older versions of macOS (e.g. 10.9.5) 😌"
+		"Tweeten Notifications"
 	],
-	"warning": ""
+	"warning": "Please update to the newest version of Tweeten :)",
+	"hideWarningOn": [
+		"5.4.0-darwin",
+		"5.4.0-win32",
+		"5.5.0-darwin",
+		"5.5.0-win32"
+	]
 }
